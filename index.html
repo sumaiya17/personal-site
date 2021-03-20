@@ -9,6 +9,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>You love me?</h1>
+    
+    <div id="login-area">
+        <h1 class="text-center ">Welcome To ... Website</h1>
+         <div class="submit-area">
+             <h4>Login</h4>
+            
+             <input type="text" class="form-control"  placeholder="Email">
+             <br>
+             <input type="password" class="form-control" placeholder="Password" name="" id="">
+             <br>
+             <button id="login" class="btn btn-success">Enter</button>
+         </div>
+    </div>
+    <div id="love-area">
+        <h1>You Love Me?</h1>
+        <br>
+        <br>
+        <br>
+        <button id="yes-button">Yes</button> <button id="no-button">No</button>
+    </div>
+
+    <div id="love-u">
+        <h1>I LOVE YOU</h1>
+    </div>
+    <div id="hate-u">
+        <h1>I HATE U</h1>
+    </div>
+
+    <script>
+        const loginBtn = document.getElementById("login");
+        loginBtn.addEventListener("click", function(){
+            const loginArea = document.getElementById("login-area");
+            loginArea.style.display = "none";
+            const loveArea = document.getElementById("love-area");
+            loveArea.style.display = "block";
+
+        })
+        const yesButton = document.getElementById("yes-button");
+        yesButton.addEventListener("click", function(){
+            const loveArea = document.getElementById("love-area");
+            loveArea.style.display = "none";
+            const loveU = document.getElementById("love-u");
+            loveU.style.display = "block";
+            
+        })
+        const noButton = document.getElementById("no-button");
+        noButton.addEventListener("click", function(){
+            const loveArea = document.getElementById("love-area");
+            loveArea.style.display = "none";
+            const hateU = document.getElementById("hate-u");
+            hateU.style.display = "block";
+    
+        })
+    </script>
 </body>
 </html>

@@ -1,0 +1,48 @@
+body{
+    padding: 100px;
+}
+.submit-area{
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 30px;
+}
+#love-area{
+    display: none;
+    text-align: center;
+    color: red;
+}
+#yes-button{
+    height: 100px;
+    width: 30%;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    background-color: red;
+    font-size: 40px;
+    font-weight: 700px;
+    color: white;
+}
+#no-button{
+    height: 100px;
+    width: 30%;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    background-color: red;
+    font-size: 40px;
+    font-weight: 700px;
+    color: white;
+}
+#love-u{
+    display: none;
+    text-align: center;
+    color: red; 
+}
+#hate-u{
+    display: none;
+    text-align: center;
+    color: red;
+}
